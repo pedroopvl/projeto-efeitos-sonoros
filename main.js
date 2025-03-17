@@ -6,7 +6,7 @@ const ListaDeTeclas = document.querySelectorAll('.tecla');
 
 let contador = 0;
 
-while(contador < ListaDeTeclas.length) {
+for (let contador = 0; contador < ListaDeTeclas.length) {
 
     const tecla = ListaDeTeclas[contador];
     const instrumento = tecla.classList[1];
